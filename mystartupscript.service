@@ -1,0 +1,9 @@
+[Unit] 
+Description=Mystartupscript 
+ 
+[Service] 
+Type=oneshot
+ExecStart=/YOUR/SCRIPT/GOES/HERE
+
+[Install]
+WantedBy=multi-user.target

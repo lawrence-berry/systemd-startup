@@ -1,0 +1,10 @@
+[Unit]
+Description=My startup script
+
+[Timer]
+OnBootSec=30s
+Unit=startupscript.service
+
+[Install]
+WantedBy=timers.target
+
